@@ -9,7 +9,7 @@ import numpy as np
 
 vslider = \
 widgets.FloatSlider(
-    value=3.70,
+    value=0.1,
     min=0.1,
     max=10.0,
     step=0.01,
@@ -24,7 +24,7 @@ widgets.FloatSlider(
 
 oslider = \
 widgets.FloatSlider(
-    value=-0.4,
+    value=0,
     min=-90,
     max=90.0,
     step=0.1,
@@ -69,7 +69,7 @@ widgets.FloatSlider(
 
 u1slider = \
 widgets.FloatSlider(
-    value=0.82,
+    value=0,
     min=0.0,
     max=2.0,
     step=0.01,
@@ -99,7 +99,7 @@ widgets.FloatSlider(
 
 yslider = \
 widgets.FloatSlider(
-    value=-0.67,
+    value=0,
     min=-1.0,
     max=1.0,
     step=0.01,
@@ -114,7 +114,7 @@ widgets.FloatSlider(
 
 rslider = \
 widgets.FloatSlider(
-    value=0.157,
+    value=0.1,
     min=0.01,
     max=0.5,
     step=0.001,
