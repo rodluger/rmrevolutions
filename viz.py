@@ -139,7 +139,7 @@ map = starry.Map(5)
 def visualize_func(veq=1, inc=90, obl=0, alpha=0, u1=0, u2=0, yo=0, ro=0.1):
     res = 300
     map[:3, :] = (veq * 1.e3) * get_ylm_coeffs(inc, obl, alpha)
-    map[0, 0] = (veq * 1.e3) * 1e-15
+    map[0, 0] = 1
     map[1] = u1
     map[2] = u2
     
